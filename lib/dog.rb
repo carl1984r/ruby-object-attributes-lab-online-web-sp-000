@@ -3,14 +3,12 @@ class Dog
     @name = name
   end
 
-  def get_name
+  def name
     @name
   end
 
-  def set_name=(new_name)
+  def name=(new_name)
     @name = new_name
   end
 end
 
-fido = Dog.new
-fido.name = "Fido"
